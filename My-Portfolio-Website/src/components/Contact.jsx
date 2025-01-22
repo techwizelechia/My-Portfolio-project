@@ -58,7 +58,7 @@ const Contact = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              placeholder="John Doe"
+              placeholder="Your Name"
               required
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             />
@@ -74,7 +74,7 @@ const Contact = () => {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="johndoe@example.com"
+              placeholder="youremail@example.com"
               required
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             />
@@ -90,7 +90,7 @@ const Contact = () => {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              placeholder="+123 456 7890"
+              placeholder="+254 456 7890"
               className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             />
           </div>

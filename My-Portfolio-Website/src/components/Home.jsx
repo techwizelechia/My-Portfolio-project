@@ -8,7 +8,7 @@ function Home() {
           {/* Left Column: Text Section */}
           <div className="text-center lg:text-left lg:w-1/2 space-y-6 animate__animated animate__fadeIn">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight text-white">
-              Hi, I'm a Full-Time Web Developer
+              Hi, I'm Elechia <br/>A Full-Time Web Developer
             </h1>
             <p className="text-lg sm:text-xl text-gray-100 animate__animated animate__fadeIn animate__delay-1s">
               I specialize in creating responsive, user-friendly websites and applications. Let's build something amazing together.
@@ -32,14 +32,14 @@ function Home() {
           <div className="lg:w-1/2 flex justify-center lg:justify-end animate__animated animate__fadeIn animate__delay-3s items-center">
             <img
               src={pictures}
-              alt="Developer"
+              alt="Software Developer"
               className="w-64 h-64 rounded-full object-cover animate-pulse hover:scale-110 transition-all duration-300 ease-in-out"
             />
           </div>
         </div>
       </div>
 
-      {/* Background Shape (Responsive and Animated) */}
+      {/* Background Shape */}
       <div
         className="absolute inset-0 z-0 bg-cover bg-center opacity-20 animate__animated animate__fadeIn animate__delay-3s"
         style={{ backgroundImage: 'url(https://via.placeholder.com/1500x1000)' }}

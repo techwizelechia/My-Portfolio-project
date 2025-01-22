@@ -5,13 +5,13 @@ const Services = () => {
     {
       title: "Web Development",
       description:
-        "Building responsive and dynamic websites using HTML, CSS, JavaScript, and Tailwind CSS to create seamless user experiences.",
+        "Building responsive and dynamic websites using HTML, CSS, JavaScript, React Js and Tailwind CSS to create seamless user experiences.",
       icon: "🌐",
     },
     {
-      title: "Version Control",
+      title: "API Integration",
       description:
-        "Efficiently managing code repositories using Git and GitHub, ensuring collaboration and version tracking for smooth project workflows.",
+        "Fetching and displaying dynamic data from RESTful APIs or GraphQL. Creating interactive features like live search, weather widgets, or data visualizations",
       icon: "🔧",
     },
     {

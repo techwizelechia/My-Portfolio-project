@@ -27,7 +27,7 @@ const About = () => {
                 />
               </div>
             </div>
-            <div className="absolute inset-0 bg-gray-900 bg-opacity-50 hidden group-hover:flex items-center justify-center text-center text-white font-medium text-sm transition-all duration-300">
+            <div className="absolute inset-x-0 bottom-0 bg-gray-900 bg-opacity-50 hidden group-hover:flex items-center justify-center text-white font-medium text-sm transition-all duration-300 p-2">
               "Transforming ideas into beautiful and functional web solutions!"
             </div>
           </div>
@@ -35,7 +35,7 @@ const About = () => {
           {/* Text Section */}
           <div className="space-y-6 animate-fade-in-up">
             <h3 className="text-3xl font-bold text-purple-400">
-              Hi, I'm [Elechia]!
+              Hi, I'm Elechia!
             </h3>
             <p className="text-lg text-gray-400 leading-relaxed">
               As a Junior Software Developer, I specialize in crafting dynamic and responsive web applications using modern technologies. My focus is on delivering visually appealing and efficient solutions that enhance user experiences.
@@ -58,10 +58,11 @@ const About = () => {
                   "Git",
                   "GitHub",
                   "Figma",
+                  "React js",
                 ].map((skill, index) => (
                   <span
                     key={index}
-                    className="px-3 py-2 text-sm font-medium bg-gray-800 rounded-md text-center hover:bg-gray-700 transition-colors duration-300"
+                    className="px-3 py-2 text-sm font-medium bg-gray-800 rounded-md cursor-pointer text-center hover:bg-gray-700 transition-colors duration-300"
                   >
                     {skill}
                   </span>
