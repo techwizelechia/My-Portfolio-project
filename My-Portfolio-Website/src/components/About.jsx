@@ -2,15 +2,15 @@ import React from "react";
 import myProfile from "../assets/Images/elechia.jpg"
 const About = () => {
   return (
-    <section className="bg-gray-900 text-white py-12 md:py-20 px-6 sm:px-12 lg:px-20">
+    <section className="bg-black text-white py-12 md:py-20 px-6 sm:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-10 md:mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold tracking-wide leading-tight animate-fade-in-up">
-            About Me
+          <h2 className="text-4xl text-purple-400 md:text-5xl font-bold tracking-wide leading-tight animate-fade-in-up">
+          What I Do
           </h2>
           <p className="mt-4 text-lg md:text-xl text-gray-400 animate-fade-in-up delay-200">
-            A passionate Junior Software Developer building creative and scalable web solutions.
+          A passionate Junior Software Developer and Website Designer.
           </p>
         </div>
 
@@ -27,9 +27,6 @@ const About = () => {
                 />
               </div>
             </div>
-            <div className="absolute inset-x-0 bottom-0 bg-gray-900 bg-opacity-50 hidden group-hover:flex items-center justify-center text-white font-medium text-sm transition-all duration-300 p-2">
-              "Transforming ideas into beautiful and functional web solutions!"
-            </div>
           </div>
 
           {/* Text Section */}
@@ -38,7 +35,7 @@ const About = () => {
               Hi, I'm Elechia!
             </h3>
             <p className="text-lg text-gray-400 leading-relaxed">
-              As a Junior Software Developer, I specialize in crafting dynamic and responsive web applications using modern technologies. My focus is on delivering visually appealing and efficient solutions that enhance user experiences.
+              As a Junior Software Developer and Website Designer, I specialize in crafting dynamic and responsive web applications using modern technologies. My focus is on delivering visually appealing and efficient solutions that enhance user experiences.
             </p>
             <p className="text-lg text-gray-400 leading-relaxed">
               I am skilled in building clean, maintainable codebases and thrive in collaborative environments where creativity meets functionality.
@@ -46,7 +43,7 @@ const About = () => {
 
             {/* Skill Section */}
             <div>
-              <h4 className="text-2xl font-semibold mb-4 text-indigo-400">
+              <h4 className="text-2xl font-semibold mb-4 text-purple-400">
                 Skills & Tools
               </h4>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -62,7 +59,7 @@ const About = () => {
                 ].map((skill, index) => (
                   <span
                     key={index}
-                    className="px-3 py-2 text-sm font-medium bg-gray-800 rounded-md cursor-pointer text-center hover:bg-gray-700 transition-colors duration-300"
+                    className="px-3 py-2 text-sm font-medium bg-gray-800 rounded-md cursor-pointer text-center hover:bg-gray-900 transition-colors duration-300"
                   >
                     {skill}
                   </span>
